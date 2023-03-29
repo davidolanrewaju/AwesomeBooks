@@ -191,13 +191,13 @@ I would like to thank microverse for the resources provided to make this project
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **[How did you set up your project?]**
+- **How did you set up your project?**
 
   - Installed all dependencies given by Microverse (stylelint, webhint, lighthouse)
 
-- **[How do I clone your report for use?]**
+- **How do I clone your report for use?**
 
-  - [Open git bash and enter "git clone https://github.com/dave-prog/My-Portofolio"]
+  - Open git bash and enter "git clone https://github.com/dave-prog/My-Portofolio"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
