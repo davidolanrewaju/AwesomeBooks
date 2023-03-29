@@ -51,7 +51,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project Setup: Mobile First] <a name="about-project"></a>
+# 📖 AwesomeBooks <a name="about-project"></a>
 
 **[AwesomeBooks]** is a project that helps showcases a deeper understanding of Javascript by the use of classes, property constructors, and objects to create an webpage with the feature to add and remove contents dynamically.
 
@@ -167,7 +167,7 @@ Click [this link](https://www.loom.com/share/a600c92ff4cd4594a16d8c8d59bc619d) t
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/dave-prog/AwesomeBooks/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
