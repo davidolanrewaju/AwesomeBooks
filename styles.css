@@ -43,8 +43,6 @@ body {
 .remove {
   padding: 8px 25px;
   font-family: 'Raleway', sans-serif;
-  color: black;
-  font-weight: 600;
   outline: none;
   border: none;
   border-radius: 5px;
@@ -68,7 +66,9 @@ body {
   align-items: center;
 }
 
-#title, #author, #add {
+#title,
+#author,
+#add {
   padding: 10px 50px 10px 5px;
   font-family: 'Raleway', sans-serif;
   color: black;
@@ -84,8 +84,7 @@ body {
 
 #add {
   text-transform: uppercase;
-  background: #757575; 
-  border: none;
+  background: #757575;
   cursor: pointer;
   padding-left: 50%;
   padding-right: 50%;
@@ -95,10 +94,10 @@ body {
 }
 
 #footer {
-    margin-top: 9rem;
-    text-align: center;
+  margin-top: 9rem;
+  text-align: center;
 }
 
 #footer p {
-    font-size: 12px;
+  font-size: 12px;
 }
