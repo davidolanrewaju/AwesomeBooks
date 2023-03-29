@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 2rem 5rem;
+  padding: 0;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.date-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: 500;
+}
+
+#books {
+  margin: 4rem 0;
+}
+
+#books h3 {
+  border-bottom: 1px solid #8a8a8a;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-list p {
+  font-size: 20px;
+}
+
+.remove {
+  padding: 8px 25px;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #757575;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+#add-books h3 {
+  border-bottom: 1px solid #8a8a8a;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#form {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 45% 45% 5%;
+  column-gap: 1%;
+  align-items: center;
+}
+
+#title,
+#author,
+#add {
+  padding: 10px 50px 10px 5px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid #8a8a8a;
+  border-radius: 5px;
+}
+
+.add-btn {
+  text-align: center;
+}
+
+#add {
+  text-transform: uppercase;
+  background: #757575;
+  cursor: pointer;
+  padding-left: 50%;
+  padding-right: 50%;
+  border: none;
+  font-weight: 700;
+  color: white;
+}
+
+#footer {
+  margin-top: 9rem;
+  text-align: center;
+}
+
+#footer p {
+  font-size: 12px;
+}
