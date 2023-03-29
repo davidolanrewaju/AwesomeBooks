@@ -8,10 +8,12 @@ function updateList(event) {
 
   bookLists.innerHTML += `
     <div class="book-list">
-      <p>"${inputData.title}" by ${inputData.author}</p>
+      <p>"${inputData.title}" - ${inputData.author}</p>
       <button class="remove">Remove</button>
     </div>
   `;
+
+  form.reset();
 }
 
 form.addEventListener('submit', updateList);
