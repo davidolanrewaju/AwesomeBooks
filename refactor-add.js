@@ -29,7 +29,7 @@ class BookList {
 
   loadBooks() {
     const savedBooks = JSON.parse(localStorage.getItem(this.localStorageKey));
-    if (savedBooks) {
+    if (savedBooks && this.bookList) { // check if this.bookList exists
       this.bookList.innerHTML = savedBooks;
     }
   }
@@ -43,11 +43,11 @@ class BookList {
   }
 
   setupEventListeners() {
-    this.bookList.addEventListener('click', this.removeBook.bind(this));
-    this.form.addEventListener('submit', this.updateList.bind(this));
+    if (this.bookList && this.form) {
+      this.bookList.addEventListener('click', this.removeBook.bind(this));
+      this.form.addEventListener('submit', this.updateList.bind(this));
+    }
   }
 }
 
-/* eslint-disable */
-const bookList = new BookList('.book-lists', '#form', 'bookLists');
-/* eslint-disable */
+const bookList = new BookList('.book-lists', '#form', 'bookLists');// eslint-disable-line
